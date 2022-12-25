@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) { /* TABLET */
+    
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
+    
+    #login {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) { /* DESKTOP */
+    body {
+        background-image: linear-gradient(to top, var(--verde), var(--lilas));
+    }
+
+    #login {
+        width: 950px;
+    }
+
+    #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+    
+    #formulario {
+        float: left;
+        width: 50%;
+    }
+
+}
